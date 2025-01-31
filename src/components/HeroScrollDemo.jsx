@@ -18,7 +18,7 @@ export default function HeroScrollDemo() {
           </>
         }>
         <img
-          src="/women.png"
+          src="/MahilAI/women.png"
           alt="hero"
           height={720}
           width={1400}

@@ -87,7 +87,7 @@ const Homepage = () => {
 
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
             <TiltedCard
-              imageSrc="\logoimg.jpg"
+              imageSrc="/MahilAI\logoimg.jpg"
               altText="MahilAI-Join us"
               captionText="MahilAI-Join us"
               containerHeight="300px"
@@ -137,9 +137,9 @@ const Homepage = () => {
           Instagram Posts
         </h1>
         <div className="  pt-20 flex justify-center space-x-6">
-          <DecayCard width={350} height={450} image="\insta1.jpg"></DecayCard>
-          <DecayCard width={350} height={450} image="\insta2.jpg"></DecayCard>
-          <DecayCard width={350} height={450} image="\insta3.jpg"></DecayCard>
+          <DecayCard width={350} height={450} image="/MahilAI\insta1.jpg"></DecayCard>
+          <DecayCard width={350} height={450} image="/MahilAI\insta2.jpg"></DecayCard>
+          <DecayCard width={350} height={450} image="/MahilAI\insta3.jpg"></DecayCard>
         </div>
       </div>
  <HeroScrollDemo></HeroScrollDemo>
