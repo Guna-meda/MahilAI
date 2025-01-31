@@ -4,7 +4,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a className="flex items-center gap-2">
           <img
-            src="\mahillogo.jpg"
+            src="/MahilAI\mahillogo.jpg"
             alt="Logo"
             className="w-12 h-12 rounded-full"
           />
