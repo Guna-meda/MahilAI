@@ -5,7 +5,7 @@ import About from "./components/About";
 import { Route, Router, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contactpage";
-import Event from "./components/event";
+import Event from "./components/Eventpage";
 
 const App = () => {
   const location = useLocation();
