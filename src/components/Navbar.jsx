@@ -33,7 +33,6 @@ const Navbar = () => {
           </div>
         </a>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6">
           <Link
             to="/"
@@ -61,7 +60,6 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-2xl">
             {menuOpen ? "✖️" : "☰"}

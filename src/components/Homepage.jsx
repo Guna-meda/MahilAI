@@ -16,7 +16,6 @@ const Homepage = () => {
     <div className="w-full overflow-x-hidden">
       <div className="min-h-screen bg-gradient-to-b from-[#130726] to-[#1a0933] px-6 md:px-10">
         <div className="flex flex-col md:flex-row items-center justify-between py-10 space-y-6 md:space-y-0">
-          {/* Text Section */}
           <div className="text-center md:text-left md:w-1/2 text-white space-y-6 md:pl-10">
             <BlurText
               text="Welcome to MahilAI!"
@@ -46,7 +45,6 @@ const Homepage = () => {
             </button>
           </div>
 
-          {/* Image Section */}
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
             <TiltedCard
               imageSrc="/MahilAI/logoimg.jpg"
@@ -74,7 +72,6 @@ const Homepage = () => {
           </div>
         </div>
 
-        {/* Logo Wall */}
         <div className="pt-10">
           <div className="h-40 w-full relative">
             <LogoWall
@@ -90,7 +87,6 @@ const Homepage = () => {
         </div>
       </div>
 
-      {/* Instagram Posts Section */}
       <div className="min-h-screen h-auto w-full bg-gradient-to-b from-transparent to-white px-4 md:px-0">
         <h1 className="pt-10 text-3xl md:text-6xl font-thin text-pink-500 tracking-widest text-center md:text-left md:ml-20">
           Instagram Posts
@@ -103,7 +99,6 @@ const Homepage = () => {
         </div>
       </div>
 
-      {/* Hero Scroll Section */}
       <HeroScrollDemo />
     </div>
   );
